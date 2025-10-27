@@ -7,8 +7,8 @@
 }/*max-width:1440px*/
 
 @media screen and (max-width:1199px){
-	nav.navbar.bootsnav ul.nav > li > a { padding: 35px 8px;}
-	
+	nav.navbar.bootsnav ul.nav > li > a { padding: var(--spacing-lg) var(--spacing-xs);}
+
 	.welcome-hero {height: 768px;}
 
 	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
@@ -26,16 +26,16 @@
 }/*max-width:1008px*/
 
 @media screen and (max-width:992px){
-	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
-	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right;margin-right: 0;margin-top: 21px;}
+	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: var(--spacing-xl);}
+	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right;margin-right: 0;margin-top: var(--spacing-lg);}
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
-	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
+	nav.navbar.bootsnav ul.nav > li > a {padding: var(--spacing-sm) 0;border: transparent;}
 }/*max-width:992px*/
 
 @media screen and (max-width:991px){
 	.experience-time-responsive{display: block;}
 	.experience-time-main{display: none;}
-	.experience-time,.timeline-content{text-align: left;margin-bottom: 20px;margin-left: 40px;}
+	.experience-time,.timeline-content{text-align: left;margin-bottom: var(--spacing-md);margin-left: var(--spacing-xl);}
 	.timeline-content span>i{left: 0%;top: -54%;}
 	.experience-time span>i {left: -6%;top: 6%;}
 	.main-timeline:before {left:0.4%;}
@@ -52,12 +52,12 @@
 	.experience-time span>i,.timeline-content span>i,.main-timeline:before {display: none;}
 	.experience-time, .timeline-content {margin-left: 0;}
 
-	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
+	.isotope .item {max-width: 350px;margin: 0 auto var(--spacing-xl);}
 
-	.single-profile {max-width: 350px; margin: 30px auto;border: 0;}
+	.single-profile {max-width: 350px; margin: var(--spacing-xl) auto;border: 0;}
 	.profile-border{border: 0;}
 
-	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+	.single-horizontal-timeline {max-width: 350px;margin: var(--spacing-xl) auto;}
 
 }/*max-width:767px*/
 
